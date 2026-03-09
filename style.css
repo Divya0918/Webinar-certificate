@@ -1,0 +1,151 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+background:linear-gradient(90deg,#020617,#07142a,#020617);
+
+color:white;
+
+height:100vh;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
+}
+
+.container{
+width:90%;
+max-width:700px;
+}
+
+/* LOGO */
+
+.logo{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+margin-bottom:30px;
+}
+
+.logo-img{
+height:60px;
+filter:drop-shadow(0 0 10px cyan);
+}
+
+.logo span{
+color:#00e5ff;
+text-shadow:0 0 10px cyan;
+}
+
+/* HERO */
+
+.hero h2{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.hero span{
+color:#00e5ff;
+text-shadow:0 0 15px cyan;
+}
+
+.hero p{
+color:#9fb3c8;
+margin-bottom:30px;
+}
+
+/* SEARCH */
+
+.search-box{
+display:flex;
+justify-content:center;
+gap:10px;
+margin-bottom:30px;
+}
+
+.search-box input{
+
+width:350px;
+
+padding:12px;
+
+border-radius:8px;
+
+border:none;
+
+background:#1e293b;
+
+color:white;
+
+}
+
+.search-box button{
+
+padding:12px 20px;
+
+border:none;
+
+border-radius:8px;
+
+background:#00acc1;
+
+color:black;
+
+font-weight:bold;
+
+cursor:pointer;
+
+}
+
+.search-box button:hover{
+
+background:#00e5ff;
+
+box-shadow:0 0 10px cyan;
+
+}
+
+/* RESULT */
+
+#result img{
+width:100%;
+max-height:350px;
+object-fit:cover;
+border-radius:10px;
+margin-top:20px;
+}
+
+.download-btn{
+
+margin-top:15px;
+
+padding:10px 20px;
+
+background:#00e5ff;
+
+border:none;
+
+border-radius:6px;
+
+cursor:pointer;
+
+font-weight:bold;
+
+}
+
+footer{
+position:absolute;
+bottom:20px;
+font-size:12px;
+color:#9fb3c8;
+}
